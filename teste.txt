@@ -1,1 +1,14 @@
-teste
+- git branch design
+- git branch: lista todas as branches locais
+- git branch -a: inclui as branches remotas
+- git checkout << álias >>: troca o ambiente atual para a branch << álias >>
+- git checkout -b: cria uma nova branch e em seguida, altera o seu espaço de trabalho
+- git branch -r: mostra a lista de branches remotas
+- git branch -d: remove a branch após o seu uso
+- git push -u origin << nome da nova branch >>: cria a branch remota << nome da nova branch >> no repositório referente ao origin e cria uma ligação entre a branch local e a branch remota
+- git branch -r: lista somente as branches remotas do repositório
+- git branch -a: lista tanto as branches locais quanto as remotas
+- git branch origin: cria uma nova branch
+- git fetch origin: verifica todas as atualizações que foram realizadas no repositório de atalho
+- git checkout -t: copia uma branch localizada num repositório remoto
+- git branch origin :design / git push origin :design : exclui branch's que não são mais usadas
